@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="ifRoom"
+        android:title="Share"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_item_camera"
+        android:icon="@drawable/ic_action_camera"
+        android:showAsAction="ifRoom"
+        android:title="Camera"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_item_flash"
+        android:icon="@drawable/ic_action_flash_on"
+        android:showAsAction="ifRoom"
+        android:title="Flash"
+        android:visible="false"/>
+
+</menu>
